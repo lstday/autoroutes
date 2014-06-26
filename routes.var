@@ -1,0 +1,29 @@
+routecmd="/bin/ip route"
+netstatcmd=/bin/netstat
+log=/var/log/routes.log
+flushfile=/tmp/flushfile
+debug=0
+
+ssif=eth1
+ssaddr=86.62.78.101
+ssgw=86.62.78.97
+ssfile=/tmp/routes-ssfile
+
+hif=eth2
+haddr=10.0.0.10
+hgw=10.0.0.1
+hfile=/tmp/routes-hfile
+
+ssnet=192.168.83.1/24
+hnet=10.0.0.0/24
+#10.50.0.0/16
+
+
+#pinger options
+maxval=300
+threshholdval=200
+incr=1
+decr=5
+
+
+delimiter='=========================================================================='
