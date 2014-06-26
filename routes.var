@@ -5,18 +5,17 @@ flushfile=/tmp/flushfile
 debug=0
 
 ssif=eth1
-ssaddr=86.62.78.101
-ssgw=86.62.78.97
+ssaddr=x.x.x.x
+ssgw=x.x.x.x
 ssfile=/tmp/routes-ssfile
 
 hif=eth2
-haddr=10.0.0.10
-hgw=10.0.0.1
+haddr=x.x.x.x
+hgw=x.x.x.x
 hfile=/tmp/routes-hfile
 
-ssnet=192.168.83.1/24
-hnet=10.0.0.0/24
-#10.50.0.0/16
+ssnet=x.x.x.x
+hnet=x.x.x.x
 
 
 #pinger options
